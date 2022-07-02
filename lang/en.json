@@ -3,92 +3,92 @@
         "developers": {
             "categoryName": "DEVELOPER",
             "eval": {
-                "description": "Evaluate to the bot",
-                "errorString": "Error",
-                "noCode": "No code was provided.",
-                "outputString": "Output",
+                "description": "Évaluer le bot",
+                "errorString": "Erreur",
+                "noCode": "Aucun code n'a été fourni.",
+                "outputString": "Sortie",
                 "usage": "{prefix}eval <some code>"
             }
         },
         "general": {
             "about": {
-                "aboutFooter": "{botname} - Bot Information",
-                "botUptimeString": "Bot Uptime",
-                "botVersionString": "Bot version",
-                "description": "Show the bot's information",
-                "discordJSVersionString": "Discord.js version",
-                "ffmpegVersionString": "FFmpeg version",
-                "nodeVersionString": "Node.js version",
-                "osUptimeString": "OS Uptime",
-                "processUptimeString": "Process Uptime",
-                "sourceCodeString": "Source code"
+                "aboutFooter": "{botname} - Informations sur le bot",
+                "botUptimeString": "Temps de fonctionnement du Bot",
+                "botVersionString": "Version Bot",
+                "description": "Afficher les informations sur le robot",
+                "discordJSVersionString": "Version de Discord.js",
+                "ffmpegVersionString": "Version de FFmpeg",
+                "nodeVersionString": "Version de Node.js",
+                "osUptimeString": "Temps de fonctionnement du système d'exploitation",
+                "processUptimeString": "Temps de fonctionnement du processus",
+                "sourceCodeString": "Code source"
             },
             "categoryName": "GENERAL",
             "help": {
                 "aliasesString": "Aliases",
-                "authorString": "{username} - Command List",
-                "commandDetailTitle": "{username} - Information about {command} command",
-                "commandSelectionString": "Please select the command",
-                "commandUsageFooter": "<> = required | [] = optional {devOnly}",
-                "description": "Shows the command list or information for a specific command",
+                "authorString": "{username} - Liste des commandes",
+                "commandDetailTitle": "{username} - Informations sur {command} commande",
+                "commandSelectionString": "Veuillez sélectionner la commande",
+                "commandUsageFooter": "<> = requis | [] = en option {devOnly}",
+                "description": "Affiche la liste des commandes ou les informations relatives à une commande spécifique.",
                 "descriptionString": "Description",
-                "footerString": "{prefix}help <command> to get more information on a specific command",
-                "nameString": "Name",
-                "noCommanSuggest": "Couldn't find matching command name. Did you mean this?",
-                "noCommand": "Couldn't find any matching command name.",
-                "slashDescription": "Command name to view a specific information about the command",
+                "footerString": "{prefix}help <command> pour obtenir plus d'informations sur une commande spécifique",
+                "nameString": "Nom",
+                "noCommanSuggest": "Impossible de trouver le nom de commande correspondant. Voulez-vous dire ceci ?",
+                "noCommand": "Impossible de trouver un nom de commande correspondant.",
+                "slashDescription": "Nom de la commande pour afficher une information spécifique sur la commande",
                 "usage": "{prefix}help [command]",
-                "usageString": "Usage"
+                "usageString": "Utilisation"
             },
             "invite": {
-                "clickURL": "**[Click here]({url})** to invite this bot to your server.",
-                "description": "Get the invite link for the bot",
-                "inviteTitle": "{bot} - Invite Link"
+                "clickURL": "**[Click here]({url})** pour inviter ce bot sur votre serveur.",
+                "description": "Obtenez le lien d'invitation pour le bot",
+                "inviteTitle": "{bot} - Lien d'invitation"
             },
             "ping": {
-                "description": "Shows the current ping of the bot",
-                "footerString": "Latency of: {user}"
+                "description": "Indique le ping actuel du bot",
+                "footerString": "Latence de : {user}"
             }
         },
         "moderation": {
             "ban": {
-                "banFail": "Unable to **`BAN`** member, because: `{message}`",
-                "banSuccess": "**{user}** has been **`BANNED`** from the server.",
-                "bannedByString": "Banned by: {author}",
-                "botNoPermission": "Sorry, but I don't have **`BAN MEMBERS`** permission.",
-                "description": "Ban someone from the server",
-                "slashMemberIDDescription": "Who do you like to ban?",
-                "slashReasonDescription": "Ban reason",
+                "banFail": "Impossible de **`BAN`** membre, parce que : `{message}`",
+                "banSuccess": "**{user}** a été **`BANNI`** du serveur.",
+                "bannedByString": "Interdit par : {author}",
+                "botNoPermission": "Désolé, mais je n'ai pas la permission de **`BAN MEMBERS`**.",
+                "description": "Bannir quelqu'un du serveur",
+                "slashMemberIDDescription": "Qui voulez-vous bannir ?",
+                "slashReasonDescription": "Motif du ban",
                 "usage": "{prefix}ban <@mention | id> [reason]",
-                "userBanned": "You have been **`BANNED`** from **{guildName}**",
-                "userNoBannable": "Sorry, but I can't **`BAN`** that member.",
-                "userNoPermission": "Sorry, but you don't have **`BAN MEMBERS`** permission to use this command."
+                "userBanned": "Vous avez été **`BANNI`** de **{guildName}**",
+                "userNoBannable": "Désolé, mais je ne peux pas **`BAN`** ce membre.",
+                "userNoPermission": "Désolé, mais vous n'avez pas l'autorisation de **``BAN MEMBERS``** pour utiliser cette commande."
             },
             "categoryName": "MODERATION",
             "common": {
                 "noReasonString": "[Not specified]",
-                "noUserSpecified": "Please specify someone.",
-                "reasonString": "**Reason**"
+                "noUserSpecified": "Veuillez spécifier quelqu'un.",
+                "reasonString": "**Motif**"
             },
             "infractions": {
-                "description": "Show the infractions of a user",
+                "description": "Afficher les infractions d'un utilisateur",
                 "embedAuthorText": "{user} - Infractions",
-                "noInfractions": "No infractions.",
-                "slashMemberDescription": "Who do you like to see the infractions of?",
+                "noInfractions": "Aucune infraction.",
+                "slashMemberDescription": "A qui voulez-vous voir les infractions ?",
                 "usage": "{prefix}infractions [@mention | id]"
             },
             "kick": {
-                "botNoPermission": "Sorry, but I don't have **`KICK MEMBERS`** permission.",
-                "description": "Kick someone from the server",
-                "kickFail": "Unable to **`KICK`** member, because: `{message}`",
-                "kickSuccess": "**{user}** has been **`KICKED`** from the server.",
-                "kickedByString": "Kicked by: {author}",
-                "slashMemberDescription": "Who do you like to kick?",
+                "botNoPermission": "Désolé, mais je n'ai pas la permission de **`KICK MEMBERS`**.",
+                "description": "Kick quelqu'un du serveur",
+                "kickFail": "Impossible de **`KICK`** ce membre, parce que : `{message}`",
+                "kickSuccess": "**{user}** a été **`KICKED`** du serveur.",
+                "kickedByString": "Kick par : {author}",
+                "slashMemberDescription": "Qui voulez-vous kick ?",
                 "slashReasonDescription": "Kick reason",
                 "usage": "{prefix}kick <@mention | id> [reason]",
-                "userKicked": "You have been **`KICKED`** from **{guildName}**",
-                "userNoKickable": "Sorry, but I can't **`KICK`** that member.",
-                "userNoPermission": "Sorry, but you don't have **`KICK MEMBERS`** permission to use this command."
+                "userKicked": "Vous avez été **`KICKED`** de **{guildName}**",
+                "userNoKickable": "Désolé, mais je ne peux pas **`KICK`` ce membre.",
+                "userNoPermission": "Désolé, mais vous n'avez pas la permission de **`KICK MEMBERS`** pour utiliser cette commande."
             },
             "modlogs": {
                 "channel": {
@@ -269,7 +269,7 @@
             "skip": {
                 "description": "Skip the music",
                 "skipMessage": "Skipped **{song}**",
-                "voteResultMessage": "{length}/{required} voted to skip the current song"
+                "voteResultMessage": "{length}/{requis} voted to skip the current song"
             },
             "skipTo": {
                 "cantPlay": "You can't skip to current music.",
